@@ -21,7 +21,7 @@ h1 {
   width: 50%;
   height: fit-content;
   padding: 2rem 1rem 6rem 1rem;
-  height: 45vh;
+  height: 450px;
 }
 #outputTexts {
   display: flex;
@@ -39,7 +39,7 @@ p {
 
 #outputName,
 #status {
-  height: 7vh;
+  height: 70px;
 }
 #replaceInputs {
   height: 10rem;
@@ -48,9 +48,9 @@ p {
 button {
   width: 10rem;
 }
-@media (max-width: 767px) {
+@media (max-width: 967px) {
   .container {
-    height: 60vh;
+    height: 600px;
     width: 100vw;
   }
   #status {

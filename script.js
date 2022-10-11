@@ -27,7 +27,6 @@ const guessNumber = (num) => {
   if (!randomNum) {
     randomNum = x;
   }
-  console.log(randomNum);
 
   while (parseInt(guess.value) !== randomNum && count < 3) {
     status.innerHTML = `Wrong, Try again!\nAttempt:${count}!remaining Attempts:${
@@ -53,7 +52,7 @@ const guessNumber = (num) => {
       status.innerHTML = `Too close, try again!\n Attempt:${count}\n<span id="remaining"> remaining Attempts:${
         3 - count
       }</span>`;
-      status.style.color = "brown";
+      status.style.color = "#3CACAE";
     }
 
     count++;
