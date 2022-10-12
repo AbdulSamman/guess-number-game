@@ -18,9 +18,12 @@ h1 {
   font-size: 200%;
 }
 .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
   width: 50%;
   height: fit-content;
-  padding: 2rem 1rem 6rem 1rem;
+  padding-top: 20px;
   height: 450px;
 }
 #outputTexts {
@@ -50,13 +53,9 @@ button {
 }
 @media (max-width: 967px) {
   .container {
-    height: 500px;
     width: 100vw;
   }
-  #status {
-    height: 10vh;
-    padding-top: 20px;
-  }
+
   button {
     width: max-content;
   }
