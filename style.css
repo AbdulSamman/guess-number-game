@@ -50,11 +50,14 @@ button {
 }
 @media (max-width: 967px) {
   .container {
-    height: 600px;
+    height: 500px;
     width: 100vw;
   }
   #status {
-    height: 15vh;
+    height: 10vh;
     padding-top: 20px;
+  }
+  button {
+    width: max-content;
   }
 }
