@@ -20,11 +20,11 @@ h1 {
 .container {
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: 10px;
   width: 50%;
   height: fit-content;
   padding-top: 20px;
-  height: 450px;
+  height: 400px;
 }
 #outputTexts {
   display: flex;
@@ -40,9 +40,11 @@ p {
   color: blue;
 }
 
-#outputName,
 #status {
-  height: 70px;
+  height: 50px;
+}
+#outputName {
+  height: 60px;
 }
 #replaceInputs {
   height: 10rem;
@@ -58,5 +60,10 @@ button {
 
   button {
     width: max-content;
+  }
+
+  #status,
+  #outputName {
+    height: 70px;
   }
 }
